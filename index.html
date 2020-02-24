@@ -662,6 +662,24 @@
 	</main>
 
 	<!-- End main content -->
+<script SameSite="None; Secure" src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js"></script>
+<script>
+  var myLandbot = new LandbotLivechat({
+    index: 'https://landbot.io/u/H-382549-K7G7O23DEAJI4NO3/index.html',
+  });
+</script><script>
+  // Show a proactive message on landbot load
+  myLandbot.on('landbot-load', function() {
+    myLandbot.sendProactive({
+  "message": "Hello there!",
+  "author": "landbot",
+  "avatar": "https://storage.googleapis.com/media.helloumi.com/93761/channels/X92GA4C1ZZ0W5U1MQ3U1CHHQGUCW7A34.png",
+  "extra": {
+    "hide_textbox": true
+  }
+});
+  });
+</script>
 
 
 	<!-- Start footer -->

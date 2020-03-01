@@ -2,7 +2,7 @@
 ------------------------------------
 	Labs - Design Studio
 	Version: 1.0
- ------------------------------------ 
+ ------------------------------------
  ====================================*/
 
 
@@ -1312,6 +1312,7 @@ ul {
 /* Contact page Map */
 .map {
 	height: 750px;
+	width: 1000px
 }
 
 
@@ -1674,8 +1675,8 @@ ul {
 		right: 0;
 	}
 	.devices {
-		margin-top: 70px;
-		margin-bottom: 70px;
+		margin-top:50px;
+		margin-bottom: 50px;
 	}
 	.sv-card {
 		margin-bottom: 30px;
